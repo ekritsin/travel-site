@@ -9,9 +9,9 @@ module.exports = {
         filename: "[name].js"
     },
     module: {
-        rules: [ // use to be loaders but is now "rules:"
+        rules: [ 
                 {
-                    loaders: "babel-loader", // need to have -loader after babel
+                    loaders: "babel-loader", 
                     query: {
                         presets: ["es2015"]
                     },
